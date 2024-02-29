@@ -1,7 +1,20 @@
 .App {
+  position: static;
   text-align: center;
   background-color: #36a8dc;
 }
+.activeApp {
+  position: static;
+  text-align: center;
+  background-color: #b8dc36;
+}
+
 body {
+  position: static;
   background-color: #36a8dc;
+}
+.switch {
+  position: absolute;
+  top: 70px;
+  left: 47%;
 }

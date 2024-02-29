@@ -23,7 +23,6 @@ export default function SearchBar() {
   const filteredCities = cities.filter((city) =>
     city.toLowerCase().startsWith(searchInput.toLowerCase())
   );
-
   console.log(filteredCities);
 
   return (

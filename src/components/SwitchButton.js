@@ -1,5 +1,5 @@
 import Switch from "./SwitchButton.css";
-import App from "../App.css";
+import Home from "../pages/Home";
 import React, { useState } from "react";
 
 export let currentSwitchValue = true;
